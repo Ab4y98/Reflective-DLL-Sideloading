@@ -10,6 +10,7 @@ The script will create/move 3 files in the "src" folder:
 	1. tmp_something (original DLL)  
 	2. our modified DLL file  
 	3. shellcode.bin  
+	
 The sideloading works this way, first the vulnerable software loads our malicious DLL to load our shellcode, after that it redirect every exported function to the original DLL to make sure that the program doesn't crash.  
 
 ![demo](https://s12.gifyu.com/images/SrPgA.gif)  
