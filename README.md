@@ -1,6 +1,6 @@
-## Reflective-DLL-Sideloading  
+## Reflective-DLL-Sideloading
 
-    . .\Reflective-DLL-Sideloading.ps1  
+    . .\Reflective-DLL-Sideloading.ps1
     Invoke-Reflective-DLL-Sideloading -dll {vulnerable_dll} -payload {dll_file}  
     
 You can use https://github.com/hasherezade/exe_to_dll to convert your PE to DLL.  
@@ -12,7 +12,7 @@ The script will create/move 3 files in the "src" folder:
 	3. shellcode.bin  
 The sideloading works this way, first the vulnerable software loads our malicious DLL to load our shellcode, after that it redirect every exported function to the original DLL to make sure that the program doesn't crash.  
 
-![demo](https://raw.githubusercontent.com/Ab4y98/Reflective-DLL-Sideloading/main/gif/2024-07-03_22-48-52.gif?token=GHSAT0AAAAAACO3G6G5UY56BRLHXETQSUVYZUFV2SQ)
+![demo](https://s12.gifyu.com/images/SrPgA.gif)
 
 References:  
 https://github.com/memN0ps/venom-rs  
