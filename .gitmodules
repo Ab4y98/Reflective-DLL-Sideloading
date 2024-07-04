@@ -1,0 +1,3 @@
+[submodule "Spartacus"]
+	path = Spartacus
+	url = https://github.com/Accenture/Spartacus.git

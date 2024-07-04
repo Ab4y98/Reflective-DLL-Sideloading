@@ -1,1 +1,2 @@
 C:\Users\daniela\Downloads\DLL-Sideloading\CompileDLL\x64\Release\CompileDLL.dll
+C:\Users\daniela\Downloads\Reflective-DLL-Sideloading\CompileDLL\x64\Release\CompileDLL.dll
