@@ -13,6 +13,8 @@ The script will create/move 3 files in the "src" folder:
 	
 The sideloading works this way, first the vulnerable software loads our malicious DLL to load our shellcode, after that it redirect every exported function to the original DLL to make sure that the program doesn't crash.  
 
+IMPORTANT: the reflection currently only works on x64 executables .
+
 ![demo](https://s12.gifyu.com/images/SrPgA.gif)  
 
 References:  
