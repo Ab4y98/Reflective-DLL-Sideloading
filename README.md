@@ -15,8 +15,6 @@ The sideloading works this way, first the vulnerable software loads our maliciou
 
 IMPORTANT: the reflection currently only works on x64 executables .
 
-![demo](https://s12.gifyu.com/images/SrPgA.gif)  
-
 References:  
 https://github.com/memN0ps/venom-rs  
 https://github.com/Flangvik/SharpDllProxy  
